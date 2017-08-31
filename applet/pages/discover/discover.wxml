@@ -1,0 +1,14 @@
+<!--pages/discover/discover.wxml-->
+<view>
+  <!-- 搜索框 -->
+  <view class='searchWrapper'></view>
+  <!-- 创建框 -->
+  <view class='addWrapper'></view>
+  <!-- 列表框 -->
+  <view class='listWrapper'>
+    <view class='list' wx:for='{{discover}}'>
+      <text>{{item.title}}({{item.message}})</text>
+      <text class=''>{{item.distance}}米</text>
+    </view>
+  </view>
+</view>
