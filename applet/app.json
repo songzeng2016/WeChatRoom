@@ -1,0 +1,16 @@
+{
+  "pages":[
+    "pages/chats/chats",
+    "pages/discover/discover",
+    "pages/me/me",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/talk/talk"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#393a3f",
+    "navigationBarTitleText": "觅萝",
+    "navigationBarTextStyle":"white"
+  }
+}
