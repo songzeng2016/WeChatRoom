@@ -46,7 +46,7 @@ let talk = [
     isMe: false,
     mType: 'img',
     message: '',
-    src: '/images/img1.png'
+    src: '/image/img1.png'
   },
   {
     avatar: '',

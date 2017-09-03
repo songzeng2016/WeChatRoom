@@ -2,7 +2,9 @@
 <view class='wrapper'>
 
     <!-- 群信息 -->
-    <view class='info'></view>
+    <view class='info'>
+        <image src='/image/contact1.png'></image>
+    </view>
 
     <!-- 聊天列表 -->
     <view class='list-wrapper'>
@@ -34,5 +36,12 @@
     </view>
 
     <!-- 键盘区域 -->
-    <view></view>
+    <view class='panel'>
+        <view class='operation'>
+            <image src='/image/record1.png'></image>
+            <input></input>
+            <image src='/image/emoj1.png'></image>
+            <image src='/image/add1.png'></image>
+        </view>
+    </view>
 </view>
